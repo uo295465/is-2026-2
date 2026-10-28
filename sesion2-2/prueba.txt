@@ -1,1 +1,6 @@
 sss
+curl -i http://127.0.0.1/health
+
+$ curl http://127.0.0.1/metrics
+$ curl http://127.0.0.1/health
+$ curl http://127.0.0.1/api/amigos

@@ -1,0 +1,8 @@
+docker build -t amigos:3.0 .
+luego reiniciar contenedor 
+docker stop amigos
+
+docker run --name amigos \
+   -e DEPLOYMENT_MODE=production \
+   -e DATABASE_URI=mysql+pymysql://amigosuser:amigospass@basedatos/amigosdb \
+   --rm -d --network pruebas amigos:3.0

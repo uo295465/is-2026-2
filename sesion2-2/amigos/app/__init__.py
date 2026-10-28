@@ -24,7 +24,10 @@ def create_app(config_name):
     app.register_blueprint(api_blueprint, url_prefix='/api')
     from .health import health as health_blueprint
     app.register_blueprint(health_blueprint)
+    from .metrics import metrics as metrics_blueprint
+    app.register_blueprint(metrics_blueprint)
     return app
+
 
 
 # hay que abrirlo asi http://10.38.1.252:5000/html/amigos
