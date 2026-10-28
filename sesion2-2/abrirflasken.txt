@@ -1,0 +1,2 @@
+abrir entorno
+source ~/flaskenv/bin/activate
