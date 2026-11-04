@@ -4,7 +4,7 @@ docker run --name amigos \
    -e DATABASE_URI=mysql+pymysql://amigosuser:amigospass@basedatos/amigosdb \
    --rm -d --network pruebas amigos:3.0
 
-   docker run --name amigos \
+   docker run -s-name amigos \
    -e DEPLOYMENT_MODE=production \
    -e DATABASE_URI=mysql+pymysql://amigosuser:amigospass@basedatos/amigosdb \
    --network pruebas amigos:3.0
