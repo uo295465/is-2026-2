@@ -1,0 +1,2 @@
+ssh-keygen -l -f /etc/ssh/ssh_host_ed25519_key.pub
+ssh uo295465@localhost
