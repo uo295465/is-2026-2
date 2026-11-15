@@ -1,0 +1,3 @@
+dig @8.8.8.8 www.uniovi.es
+cat /etc/resolv.conf
+dig @127.0.0.53 www.uniovi.es

@@ -1,0 +1,6 @@
+nslookup www.uniovi.es
+nslookup en.wikipedia.org
+host www.uniovi.es
+host en.wikipedia.org
+dig www.uniovi.es
+dig en.wikipedia.org

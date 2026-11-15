@@ -1,0 +1,6 @@
+dig @8.8.8.8 +norecurse en.wikipedia.org
+dig @156.35.41.4 +norecurse en.wikipedia.org
+dig @8.8.8.8 +norecurse . NS
+dig @8.8.8.8 +norecurse a.root-servers.net A
+dig @127.0.0.53 . NS
+dig @127.0.0.53 a.root-servers.net A
